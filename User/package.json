@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tailwindcss/vite": "^4.1.16",
+=======
+    "firebase": "^12.5.0",
+>>>>>>> f14d1d9bdf1fdd0f965106a2d93d8509513426ad
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.16"
