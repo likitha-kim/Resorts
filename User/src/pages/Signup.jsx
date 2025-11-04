@@ -2,6 +2,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+
 import { FaUserAlt, FaLock } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -117,13 +118,14 @@ export default function Signup() {
           >
             {loading ? "Registering..." : "Register"}
           </button>
+            <p className="text-sm text-center mt-4 text-white">
+  Already have an account?{" "}
+  <Link to="/signin" className="text-blue-400 hover:text-blue-600 font-medium">
+    Sign in
+  </Link>
+</p>
 
-          <p className="text-gray-500 text-sm mt-4">
-            Already have an account?{" "}
-            <Link className="text-indigo-500 hover:underline" to="/">
-              Sign in
-            </Link>
-          </p>
+          
         </form>
       </div>
     </div>
