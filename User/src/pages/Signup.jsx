@@ -126,16 +126,7 @@ export default function Signup() {
   </Link>
 </p>
 
-<<<<<<< HEAD
           
-=======
-          <p className="text-slate-600 text-sm mt-4">
-            Already have an account?{" "}
-            <Link className="text-amber-600 hover:underline" to="/">
-              Sign in
-            </Link>
-          </p>
->>>>>>> 4cf78a3058c53cf85b2685f4af7b7b396478041c
         </form>
       </div>
     </div>
